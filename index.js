@@ -1,13 +1,13 @@
  /*
-* ShanBot es una creación de shanduy
-* ShanBot no tiene ningun fin de lucro
-* shanduy se reserva todos los derechos de autor
-* © 2021 shanduy, INC.
+* Este Bot es una creacion de santi xd
+* El bot no tiene ningun fin de lucro
+* El bot se reserva todos los derechos de autor
+* © 2021 El bot, INC.
 
 Cualquier copia que utilize mi ApiKey sera dado de baja
 
 - Que hay de nuevo?
-* Nada
+* Na vro
 */
 
 const {
@@ -71,6 +71,7 @@ const { welmenu } = require('./src/welmenu')
 const { banmenu } = require('./src/banmenu')
 const { otak } = require('./src/otak')
 const { levelmenu } = require('./src/levelmenu')
+const { pornoloco } = require ('./src/pornolocomenu')
 /******FIN DE ENTRADA DEL MENÚ******/
 
 /******CARGA DE ENTRADA VCARD******/
@@ -261,7 +262,7 @@ async function starts() {
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nQue dios lo bendiga 😎`
+				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nQue el diablo se lo viole y que Dios lo bendiga"
 				client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -394,7 +395,7 @@ if (budy.includes("https://wa.me/")){
 		}, 0)
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
-			reply("Adios mi loco")
+			reply("Adios pa por gil")
 		}, 0)
 	}
 			
@@ -448,7 +449,7 @@ if (budy.includes("https://m.facebook.com/")){
 		}, 0)
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
-			reply("Adios mi loco")
+			reply("Adios pa por gil")
 		}, 0)
 	}
 			
@@ -485,7 +486,7 @@ if (budy.includes("https://m.facebook.com/")){
 		}, 0)
 		setTimeout( () => {
 			client.updatePresence(from, Presence.composing)
-			reply("Adios mi loco")
+			reply("Adios pendejo e mielda")
 		}, 0)
 	}
 
@@ -1059,7 +1060,7 @@ break
 					break
 			        
 				
-				//FIN DE ANTILINK HECHO POR SHANDUY
+				//FIN DE ANTILINK HECHO POR SANTI <3
 				
 //ADMINISTRACION DE GRUPOS
 		                
@@ -1168,7 +1169,7 @@ if (!isGroupAdmins) return reply(mess.only.admin)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 var nomor = mek.participant
 const close = {
-text: `Grupo cerrado por el administrador @${nomor.split("@s.whatsapp.net")[0]}\nAhora *solo los administradores* puede enviar mensajes`,
+text: `Grupo cerrado por el administrador @${nomor.split("@s.whatsapp.net")[0]}\nAhora *solo los administradores mas guapos* puede enviar mensajes`,
 contextInfo: { mentionedJid: [nomor] }
 }
 client.groupSettingChange (from, GroupSettingChange.messageSend, true);
