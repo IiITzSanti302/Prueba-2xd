@@ -1,7 +1,7 @@
 # BOT EN MANTENIMIENTO
 
-PRONTO CORREGIRE EL ERROR DEL MOTOR
-GRACIAS POR LA ESPERA
+Se esta probando el bot para aja grupos de WhatsApp Se hace el intento 
+Y todo xd
 
 ShanBot Bot Para Whatsapp by shanduy
 
